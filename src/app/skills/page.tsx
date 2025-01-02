@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const SkillPage = () => {
   // Array of skills and their corresponding logo paths
@@ -37,9 +38,11 @@ const SkillPage = () => {
               className="flex flex-col items-center bg-white/10 rounded-lg p-4 hover:bg-white/20 shadow-md transition-all duration-300 transform hover:scale-105"
               aria-label={skill.name}
             >
-              <img
+              <Image
                 src={skill.src}
                 alt={`${skill.name} Logo`}
+                width={50}
+                height={50}
                 className="w-[50px] h-[50px]"
               />
               <p className="text-white text-xs sm:text-sm font-medium mt-2">
