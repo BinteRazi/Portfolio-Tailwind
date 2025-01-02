@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+
 
 interface Props {
   title: string;
@@ -103,7 +103,7 @@ const ProjectList = () => {
           My Projects
         </h2>
         <p className="text-gray-300 mt-2">
-          Welcome to my portfolio! Here, you'll explore a collection of my projects showcasing my expertise in web development and design.
+          Welcome to my portfolio! Here, you will explore a collection of my projects showcasing my expertise in web development and design.
         </p>
       </div>
 
