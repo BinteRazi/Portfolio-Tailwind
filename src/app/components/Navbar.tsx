@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import Image from "next/image";
 
 const Socials = [
   { name: "Facebook", src: "/icons/Facebook.png" },
@@ -13,7 +14,7 @@ const Nav = () => {
       {/* Logo Section */}
       <div className="flex flex-row gap-3 items-center">
         <div className="relative">
-          <img
+          <Image
             src="/images/logo.png"
             alt="Company logo"
             width={40}

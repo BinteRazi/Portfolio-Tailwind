@@ -1,13 +1,13 @@
 "use client";
-
 import React from "react";
+import Image from "next/image";
 
 const AboutPage = () => {
   return (
     <div className="bg-blue-950 min-h-screen flex items-center justify-center">
       <section className="text-white w-full" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-          <img 
+          <Image
             src="/images/Web-Developer.jpg" 
             width={500} 
             height={500} 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
               Hello, I'm 
             </span> Nimra Razi</h1>
           <p className="text-yellow-50 mb-6 text-base sm:text-lg lg:text-xl w-3/4">
-          "A passionate web developer skilled with modern frameworks and cutting-edge technologies."
+          A passionate web developer skilled with modern frameworks and cutting-edge technologies.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pink-400 to-gray-500 hover:bg-blue-400 text-white">
@@ -24,7 +25,11 @@ const HeroSection = () => {
 
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className=" w-[350px] h-[350px] flex items-center justify-center overflow-hidden">
-            <img src="./images/girl image.png" alt="hero image" className=" w-[350px] h-[350px] object-cover"/>
+            <Image src="/images/girl image.png"
+             alt="hero image"
+             width={350}
+             height={350}
+             className=" object-cover"/>
           </div>
         </div>
       </div>
