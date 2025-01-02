@@ -17,7 +17,7 @@ const AboutPage = () => {
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
             <h2 className="text-4xl font-bold  mb-4 text-transparent bg-clip-text bg-gradient-to-br from-blue-500 via-pink-400 to-gray-500">About Me</h2>
             <p className="text-base lg:text-lg">
-            I'm a creative and passionate web developer with a flair for building interactive, visually stunning, and highly functional web applications.
+            I am a creative and passionate web developer with a flair for building interactive, visually stunning, and highly functional web applications.
              Leveraging cutting-edge technologies like React, Next.js, TypeScript, and Tailwind CSS, I bring ideas to life with precision and creativity.
               With a focus on delivering seamless user experiences and innovative solutions, I strive to transform complex concepts into engaging digital 
               realities that leave a lasting impact. </p>

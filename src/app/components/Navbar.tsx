@@ -22,7 +22,7 @@ const Nav = () => {
             className="w-[40] h-[40] object-contain rounded-full"
           />
         </div>
-        <h1 className="text-white text-[25px] font-semibold">N'R</h1>
+        <h1 className="text-white text-[25px] font-semibold">N R</h1>
       </div>
 
       {/* Mobile Menu Icon */}
@@ -37,7 +37,7 @@ const Nav = () => {
       {/* Social Icons */}
       <div className="flex flex-row gap-5 mb-2 bg-white rounded-full justify-between items-center border-4 border-gray-500 p-1">
         {Socials.map((social) => (
-          <img
+          <Image
             key={social.name}
             src={social.src}
             alt={`${social.name} icon`}

@@ -10,7 +10,7 @@ const ContactForm = () => {
               Contact Us
             </h2>
             <p className="text-gray-300 mt-2">
-              We'd love to hear from you! Fill out the form below to get in touch.
+              We did love to hear from you! Fill out the form below to get in touch.
             </p>
           </div>
 

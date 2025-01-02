@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-gray-100 mb-4 text-4xl sm:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-400 to-gray-400">
-              Hello, I'm 
+              Hello, I am 
             </span> Nimra Razi</h1>
           <p className="text-yellow-50 mb-6 text-base sm:text-lg lg:text-xl w-3/4">
           A passionate web developer skilled with modern frameworks and cutting-edge technologies.
