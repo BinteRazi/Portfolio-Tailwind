@@ -25,7 +25,7 @@ const SkillPage = () => {
             </span>
           </h1>
           <p className="text-white max-w-[600px] text-xs sm:text-sm md:text-base leading-snug">
-            Showcase of my expertise and technologies I've worked with.
+            Showcase of my expertise and technologies I have worked with.
           </p>
         </div>
 
